@@ -11,9 +11,12 @@ public class tasteTester {
         birthdaycake.setPrice(200);
         System.out.print("Flavor of BirthDayCake is: "+ birthdaycake.getFlavor()+ "and it's price is: "+ birthdaycake.getPrice());
 
+        // Wedding Cake
+
         cake weddingcake= new cake("Straberry");
         weddingcake.setPrice(200);
         System.out.print("Flavor of WeddingCake is: "+ weddingcake.getFlavor()+ "and it's price is: "+ weddingcake.getPrice());
+
 
     }
 }
